@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1206
     height: 715
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/mary/Documents/Ter's School stuff/Intro to Unity/week3/Program2/GAME351-Assignment-2/Project
     2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 346.99982}
-    m_SelectedIDs: 506a0000
-    m_LastClickedID: 27216
+    scrollPos: {x: 0, y: 109.99957}
+    m_SelectedIDs: 526a0000
+    m_LastClickedID: 27218
     m_ExpandedIDs: 00000000ce68000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -388,7 +388,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -489,9 +489,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 50680000
-      m_LastClickedID: 26704
-      m_ExpandedIDs: 30fbffff36fbffff38fbffff50680000
+      m_SelectedIDs: 526a0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 3afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -791,11 +791,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.40194365, y: 0.35125294, z: -0.17045921, w: -0.82825625}
     speed: 2
-    m_Value: {x: -0.40194327, y: 0.35125262, z: -0.17045905, w: -0.8282555}
+    m_Value: {x: -0.40194368, y: 0.35125297, z: -0.17045923, w: -0.82825625}
   m_Size:
     m_Target: 45.09559
     speed: 2
-    m_Value: 45.129436
+    m_Value: 45.09559
   m_Ortho:
     m_Target: 0
     speed: 2
