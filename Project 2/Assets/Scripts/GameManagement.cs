@@ -25,6 +25,7 @@ public class GameManagement : MonoBehaviour
         }
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -38,7 +39,12 @@ public class GameManagement : MonoBehaviour
             cameras[currentCameraIndex].enabled = true;
             Camera.main.transform.position = cameras[currentCameraIndex].transform.position;
             Camera.main.transform.rotation = cameras[currentCameraIndex].transform.rotation;
+
+
+
         }
 
     }
+
+
 }
