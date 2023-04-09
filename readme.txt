@@ -4,8 +4,11 @@ April 9, 2023
 
 Team:
 Teresa Tran
+
 Hannah Klecan
+
 Samantha Jackson
+
 Ian Roach
 
 1. Primary functionality
