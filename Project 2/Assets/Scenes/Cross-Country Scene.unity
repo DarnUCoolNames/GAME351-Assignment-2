@@ -1304,6 +1304,10 @@ MonoBehaviour:
   - {fileID: 1741039105}
   - {fileID: 874088040}
   - {fileID: 1690380293}
+  cars:
+  - {fileID: 1963364899}
+  - {fileID: 1255035231}
+  - {fileID: 742126010}
 --- !u!1 &1963364897
 GameObject:
   m_ObjectHideFlags: 0
