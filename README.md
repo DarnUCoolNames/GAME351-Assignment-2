@@ -3,15 +3,19 @@ Assignment 2
 ______________________________________________________
 Program 2 Template (Starter Code) - v. 1.0
 School of Information, University of Arizona 
-July 18, 2022
+April 9, 2023
 
-This code may modified freely by students of
-GAME 351 (Intro to Game Development) for use
-in their assignments. Other uses covered by
-the terms of the GNU Lesser General Public 
-License (LGPL). Note: Some included assets 
-may be subject to differing licensing agree-
-ments as per the policies of their authors.
+README File. Please provide a thorough readme file outlining what you implemented, with
+additions, omissions, and known errata in your program. Indicate which “choice” components
+were implemented and any new key mappings that are required for the player. Finally, include
+the installation procedure for your program, as well as the rendering pipeline that you are using.
+Quality of documentation is worth 10% of the grade.
+
+1. Primary functionality 
+
+
+2. Choice Features implemented
+
 
 To install the project, follow these steps:
 
