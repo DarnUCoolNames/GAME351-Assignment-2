@@ -1,0 +1,651 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16262 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/hanna/Documents/GitHub/GAME351-Assignment-2/Project 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51486
+Successfully changed project path to: C:/Users/hanna/Documents/GitHub/GAME351-Assignment-2/Project 2
+C:/Users/hanna/Documents/GitHub/GAME351-Assignment-2/Project 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 123.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hanna/Documents/GitHub/GAME351-Assignment-2/Project 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     8131 MB
+    Driver:   21.20.16.4542
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.012945 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 130.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (903ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (664ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (78ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hanna\Documents\GitHub\GAME351-Assignment-2\Project 2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hanna\Documents\GitHub\GAME351-Assignment-2\Project 2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 120.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.125 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2127ms)
+		BeginReloadAssembly (476ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (195ms)
+		EndReloadAssembly (1392ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (697ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5141 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (0.7 MB). Loaded Objects now: 5590.
+Memory consumption went from 200.0 MB to 199.4 MB.
+Total: 5.137100 ms (FindLiveObjects: 0.644600 ms CreateObjectMapping: 0.532400 ms MarkObjects: 3.578700 ms  DeleteObjects: 0.379900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 160327.358297 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.016985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.952848 seconds.
+  path: Assets/Scenes/Post-Processing Profile.asset
+  artifactKey: Guid(4d143f17cc0bcc04993276b5139042c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Post-Processing Profile.asset using Guid(4d143f17cc0bcc04993276b5139042c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a64dd60297e8523c2117f4057585caf') in 0.045871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.864530 seconds.
+  path: Assets/Scenes/Cross-Country Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cross-Country Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83962fccd92205940d94409e07889b73') in 0.021862 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 31.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 5590.
+Memory consumption went from 91.4 MB to 90.7 MB.
+Total: 9.600400 ms (FindLiveObjects: 1.053800 ms CreateObjectMapping: 1.037500 ms MarkObjects: 6.969600 ms  DeleteObjects: 0.537300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 786.195353 seconds.
+  path: Assets/HoverCraft/Prefabs
+  artifactKey: Guid(3dcc35199b982b44599b336d2cac60d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs using Guid(3dcc35199b982b44599b336d2cac60d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1240cdf5b5de4eed319a98fd08c3f276') in 0.029088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.634650 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge
+  artifactKey: Guid(c143e68dc7aeb5c438b050be8ac55954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge using Guid(c143e68dc7aeb5c438b050be8ac55954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d001b8ea50f68b4583d88c904097e9') in 0.030629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.095425 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples
+  artifactKey: Guid(e89b20cee0b08564693f944b720879bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples using Guid(e89b20cee0b08564693f944b720879bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cda835db1b1a9e0d4867eb51b0e20f') in 0.031980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029565 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_1.prefab
+  artifactKey: Guid(1e4728bf14d352f468e1718358097c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_1.prefab using Guid(1e4728bf14d352f468e1718358097c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c02b9350c57f35682c046aa97a085b8') in 2.774105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_9.prefab
+  artifactKey: Guid(637ed2ef40f53d44e9fed0e53cf3b157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_9.prefab using Guid(637ed2ef40f53d44e9fed0e53cf3b157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81663e6286196aac7b9945600bb0878e') in 0.068651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_2.prefab
+  artifactKey: Guid(0390abf2acd6b2f48b8d653605bc6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_2.prefab using Guid(0390abf2acd6b2f48b8d653605bc6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c635ab00b1bababbd51b35e38ce72020') in 0.068007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_4.prefab
+  artifactKey: Guid(f593f2a1f06d05a4492c8872b898b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_4.prefab using Guid(f593f2a1f06d05a4492c8872b898b5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0db8e052174b073d5ff05f9b33a9be2') in 0.057956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_3.prefab
+  artifactKey: Guid(893f221629bb5c544a78f5697cceffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_3.prefab using Guid(893f221629bb5c544a78f5697cceffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4fecc5930e5e7f7072b6d48b974ce6') in 0.071890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_8.prefab
+  artifactKey: Guid(ce9fe2adb51d2364c9a097f1692b292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_8.prefab using Guid(ce9fe2adb51d2364c9a097f1692b292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6e68408a4b7feee05054059ab41551') in 0.067631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_5.prefab
+  artifactKey: Guid(a7d130fc261282046a908cc093d6280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_5.prefab using Guid(a7d130fc261282046a908cc093d6280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028be11f64833e7db2c67fc6591bb11c') in 0.081932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_7.prefab
+  artifactKey: Guid(51d8352fe2ca13343a6e2cca8d2cc578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_7.prefab using Guid(51d8352fe2ca13343a6e2cca8d2cc578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffe51e445f67543757ca0a12c6d62df') in 0.056784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_6.prefab
+  artifactKey: Guid(a85c2f9a46c69ac4ba983bb2fea9e8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_6.prefab using Guid(a85c2f9a46c69ac4ba983bb2fea9e8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a5ed2754a958023d1e03540d11cf31') in 0.085524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Examples/Edge_10.prefab
+  artifactKey: Guid(5dfcada458c7358489454eeddecd6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Examples/Edge_10.prefab using Guid(5dfcada458c7358489454eeddecd6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277e7172034f0499297f41e669006092') in 0.071012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.738276 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules
+  artifactKey: Guid(3f32089e23371824a910eaeb3174ce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules using Guid(3f32089e23371824a910eaeb3174ce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9444377384d87854c08d0c339f3add96') in 0.011185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090047 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Body1.prefab
+  artifactKey: Guid(71a414faf66abfa4a88d03e2377fb8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Body1.prefab using Guid(71a414faf66abfa4a88d03e2377fb8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f4eccb1fa3b8d63ce4650486edfaeb') in 0.061883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Cockpit2.prefab
+  artifactKey: Guid(48814212f9648984e9c3a2170c2c38b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Cockpit2.prefab using Guid(48814212f9648984e9c3a2170c2c38b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd05ef3f9757e5415d95d1804a2e6df8') in 0.067778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Piece3.prefab
+  artifactKey: Guid(0258b3c2282887c489293fca78aa8308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Piece3.prefab using Guid(0258b3c2282887c489293fca78aa8308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af087a11edb55c6f8f82a376ae56f610') in 0.060974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Piece1.prefab
+  artifactKey: Guid(c4e63c22006089f459c7ae2b836b5587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Piece1.prefab using Guid(c4e63c22006089f459c7ae2b836b5587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dfd0e6e0bda2dc04a6069bf3743b16') in 0.070467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Engine4.prefab
+  artifactKey: Guid(c9bd221faad22064491e309812132ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Engine4.prefab using Guid(c9bd221faad22064491e309812132ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fdf6a128f43844957d3dd464c4a268') in 0.102340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Wing1.prefab
+  artifactKey: Guid(14dd9c78fbf80784eb4e9a7b8740fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Wing1.prefab using Guid(14dd9c78fbf80784eb4e9a7b8740fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ba1b21b4bf57d7a72b1f9aca6d4e26') in 0.059805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Engine3.prefab
+  artifactKey: Guid(4759d0069e2b4594987f75fdaebd24e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Engine3.prefab using Guid(4759d0069e2b4594987f75fdaebd24e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9577a928de10eafd99abeb46bd5ab11a') in 0.127093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Spoiler1.prefab
+  artifactKey: Guid(8c4ab2167f0279348bf3793319230559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Spoiler1.prefab using Guid(8c4ab2167f0279348bf3793319230559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f170c1c58f903f1760750bd3966cdca') in 0.081898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Piece2.prefab
+  artifactKey: Guid(9cc965863e187d34d9b014e9ba6a66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Piece2.prefab using Guid(9cc965863e187d34d9b014e9ba6a66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4d3870e699de971ffc326ff21d9ea7') in 0.085457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Cockpit1.prefab
+  artifactKey: Guid(edf40cf4deb9f054194071d28bfd4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Cockpit1.prefab using Guid(edf40cf4deb9f054194071d28bfd4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6b73d1d81f7e203340869a40c6d947') in 0.103305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Cockpit3.prefab
+  artifactKey: Guid(fc42ef000c11c8a4ab03fedcb79e3a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Cockpit3.prefab using Guid(fc42ef000c11c8a4ab03fedcb79e3a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1647b521109951ca6356e2d2a8854c') in 0.061777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Engine2.prefab
+  artifactKey: Guid(ed0dff7e303ec98449997db11a4e8c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Engine2.prefab using Guid(ed0dff7e303ec98449997db11a4e8c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1ebc02d1cbc240722d4664b2823b08') in 0.066461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Body3.prefab
+  artifactKey: Guid(e282a585560342a4ca6805556cc9bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Body3.prefab using Guid(e282a585560342a4ca6805556cc9bd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b81062f211cf31f3fa7a988b8ecbe84') in 0.062499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Body2.prefab
+  artifactKey: Guid(e9352e932fb8c6244a95541ca8fe8e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Body2.prefab using Guid(e9352e932fb8c6244a95541ca8fe8e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71353d9d20dfffe27f270f34643f1c8c') in 0.060929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Spoiler2.prefab
+  artifactKey: Guid(24341a6244300e8419de5e92288eaa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Spoiler2.prefab using Guid(24341a6244300e8419de5e92288eaa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e158abd8d76c063d83e44ba202e1274c') in 0.054918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Wing2.prefab
+  artifactKey: Guid(2d36400047466d1499f806c88cb939f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Wing2.prefab using Guid(2d36400047466d1499f806c88cb939f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4f1a47d6aefa4b26e16a8e0ff35177') in 0.072658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Wing3.prefab
+  artifactKey: Guid(4fe7d40fcdf2b984baf1bc0a6f068cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Wing3.prefab using Guid(4fe7d40fcdf2b984baf1bc0a6f068cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95e3e7844dfee2140d6a7fc7b826dc2') in 0.119929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Engine1.prefab
+  artifactKey: Guid(4f4b30a481dfbfb4f96edd491e6c8e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Edge/Modules/Edge_Engine1.prefab using Guid(4f4b30a481dfbfb4f96edd491e6c8e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82929cf5e8a1428dff6ad56fc3a9d8c') in 0.084457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.980361 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt
+  artifactKey: Guid(0f75433f83fad7049a7fc12942ec71ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt using Guid(0f75433f83fad7049a7fc12942ec71ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012ab11cf88a8cac83ad6ba1549150e4') in 0.028799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.449402 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules
+  artifactKey: Guid(5466c4a7a9497fd4c8f6e5adaf4dbd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules using Guid(5466c4a7a9497fd4c8f6e5adaf4dbd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91b871f1aea187ec5edbdb6d92a4131') in 0.007026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061442 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Body1.prefab
+  artifactKey: Guid(b5b88a7ba4e594542ace5c5c898ebe5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Body1.prefab using Guid(b5b88a7ba4e594542ace5c5c898ebe5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ec3c9bd3b149dde15ad502fc2c503f') in 0.061299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Spoiler1.prefab
+  artifactKey: Guid(8461d48a9a67c364db39133b531d34b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Spoiler1.prefab using Guid(8461d48a9a67c364db39133b531d34b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb02457bd271761b1247e38d102d4ad4') in 0.057035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Cockpit2.prefab
+  artifactKey: Guid(ad2664d521d9c91478dec38e571b4625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Cockpit2.prefab using Guid(ad2664d521d9c91478dec38e571b4625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3211771f4ef483718ede67246279c2d') in 0.080229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine3.prefab
+  artifactKey: Guid(97792cec6828df54682b28fa9616b7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine3.prefab using Guid(97792cec6828df54682b28fa9616b7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2f64fed92481a942ad0e6c3ad6a4fd') in 0.054477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Wing4.prefab
+  artifactKey: Guid(200d6ee841f0de944b82e28fe031aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Wing4.prefab using Guid(200d6ee841f0de944b82e28fe031aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3732ef2bbbe4c0e458ebca7e7d671f8') in 0.059423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Wing3.prefab
+  artifactKey: Guid(d34cc4bd74ab6f14c87bfc003a17a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Wing3.prefab using Guid(d34cc4bd74ab6f14c87bfc003a17a6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33ed08964bf70d1182378b302054969') in 0.075211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Wing1.prefab
+  artifactKey: Guid(1cebd43d7ebed08488b48e583b3743ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Wing1.prefab using Guid(1cebd43d7ebed08488b48e583b3743ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a5f4bc1a9e7051d83a4ae5642ecb5e') in 0.103124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine2.prefab
+  artifactKey: Guid(57b528665eb80aa439abbaf292dcaf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine2.prefab using Guid(57b528665eb80aa439abbaf292dcaf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94793f4f730a37033685fc5322b63f7c') in 0.099778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Spoiler3.prefab
+  artifactKey: Guid(3fd34970c94ef914a88c41dbe997f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Spoiler3.prefab using Guid(3fd34970c94ef914a88c41dbe997f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70572d8b113cc2e6662e40c8348e3c0f') in 0.066872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Cockpit1.prefab
+  artifactKey: Guid(6b508e8b8fb8b404e88c8947a2c90d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Cockpit1.prefab using Guid(6b508e8b8fb8b404e88c8947a2c90d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b93201ee5cb77a6bda1a3dee2f29e3') in 0.100407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Body2.prefab
+  artifactKey: Guid(0e705d736d0ff3948938c668148e4846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Body2.prefab using Guid(0e705d736d0ff3948938c668148e4846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c15298b81e0af8e0cb8925b5a745a20') in 0.084747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Wing2.prefab
+  artifactKey: Guid(cae7621dcbda9e740b508297f929c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Wing2.prefab using Guid(cae7621dcbda9e740b508297f929c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1446feb3ee0e76e7ae551d200fa492') in 0.072981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Spoiler2.prefab
+  artifactKey: Guid(d0c3978b5c4e6fc4c902bf1c60cee351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Spoiler2.prefab using Guid(d0c3978b5c4e6fc4c902bf1c60cee351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a13fd522a8543ad7a757f8755d7d539') in 0.103912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine5.prefab
+  artifactKey: Guid(836913bc94eef494c90c80848212f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine5.prefab using Guid(836913bc94eef494c90c80848212f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e4ead36e515819d3feca4af09c81dc') in 0.099045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Cockpit3.prefab
+  artifactKey: Guid(627f7bb0347fa694ea8283b7b95153c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Cockpit3.prefab using Guid(627f7bb0347fa694ea8283b7b95153c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b352dbdc6375d42721f6f6bd7b3fe85') in 0.065866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine1.prefab
+  artifactKey: Guid(db7732845af50f6429f20af8587d0e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine1.prefab using Guid(db7732845af50f6429f20af8587d0e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dc92efe0f58998ea8481495e82b334') in 0.067386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine4.prefab
+  artifactKey: Guid(19b3b786449e60e418014591e37ff1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Engine4.prefab using Guid(19b3b786449e60e418014591e37ff1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c05e637ce4386c9a453c1aa67dda82') in 0.067340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Body3.prefab
+  artifactKey: Guid(1e34da6bca1cf0841908e39531d879ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Modules/Bolt_Body3.prefab using Guid(1e34da6bca1cf0841908e39531d879ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5f28c4d9f2a52703689abec77edefe') in 0.078522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.826955 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular
+  artifactKey: Guid(6d60a0b23bebeaf48aa31fa0f78cbe8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular using Guid(6d60a0b23bebeaf48aa31fa0f78cbe8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c59b8b21f15a3bb82011be4df1a69d5') in 0.041698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_3.prefab
+  artifactKey: Guid(5bafca516cdcfef4282cbebd874dde0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_3.prefab using Guid(5bafca516cdcfef4282cbebd874dde0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76c036adf97d145270b0f57f4ce08bf') in 0.062562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_4.prefab
+  artifactKey: Guid(c2bcf909dcd71aa4e989ca2a22ebdc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_4.prefab using Guid(c2bcf909dcd71aa4e989ca2a22ebdc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7a3e10e8a64d95b7d1b672bf5efa86') in 0.057092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_1.prefab
+  artifactKey: Guid(c92864b94bd0ed04aa782002c00456de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_1.prefab using Guid(c92864b94bd0ed04aa782002c00456de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79488affebf0b113aa9bc07952e9bed7') in 0.054509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_8.prefab
+  artifactKey: Guid(36f2aab3220c1ae4c994c10bec0f41f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_8.prefab using Guid(36f2aab3220c1ae4c994c10bec0f41f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f56ab3a8bfbfb8305cc01849d2afc9c') in 0.058396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_5.prefab
+  artifactKey: Guid(0e649aea95b88774884aee036c0c4602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_5.prefab using Guid(0e649aea95b88774884aee036c0c4602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2929d1f5e6b3c09901d6bc4d09f1839f') in 0.122776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_9.prefab
+  artifactKey: Guid(0c41412be0bf32a40aab585ca293bf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_9.prefab using Guid(0c41412be0bf32a40aab585ca293bf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca1704d87768d772d7cb39a5ebe0d98') in 0.066503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_2.prefab
+  artifactKey: Guid(4aa2da1c5ec90914d885bee94f4d5d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_2.prefab using Guid(4aa2da1c5ec90914d885bee94f4d5d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2631ab4a39bc5efb9518b90147f721db') in 0.124470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_10.prefab
+  artifactKey: Guid(8ad37a1cd32891c4b8fa9ea154c54781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_10.prefab using Guid(8ad37a1cd32891c4b8fa9ea154c54781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bc9d810e2441281691828401c97210') in 0.072105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_7.prefab
+  artifactKey: Guid(dfddff551292aee47bb53d63a1bd16c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_7.prefab using Guid(dfddff551292aee47bb53d63a1bd16c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674502e35370e289b12cd4f88fc58b97') in 0.059962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_6.prefab
+  artifactKey: Guid(b75cdca7cc3483c4b9f5eb3e3d5e9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/ExamplesModular/Bolt_6.prefab using Guid(b75cdca7cc3483c4b9f5eb3e3d5e9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6d47823acb6a2a5bffcbd0610e8377') in 0.088040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.583903 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples
+  artifactKey: Guid(1cd531f80b0888e4e89cb3b0d34c1bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples using Guid(1cd531f80b0888e4e89cb3b0d34c1bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e783fe5a2afa378811d6e459ed6d7e8') in 0.011366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034063 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_1.prefab
+  artifactKey: Guid(ecfd29dfc3f76e7499647b82a70d59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_1.prefab using Guid(ecfd29dfc3f76e7499647b82a70d59a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe83842601838fb24f95afeb7f112295') in 0.056192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_3.prefab
+  artifactKey: Guid(720407f6eea8a3842ac1629f027fcc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_3.prefab using Guid(720407f6eea8a3842ac1629f027fcc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351a887babe2f9b030e95c29b09d4d90') in 0.056288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_6.prefab
+  artifactKey: Guid(c99aabe4188bb2144aa55d00d2afd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_6.prefab using Guid(c99aabe4188bb2144aa55d00d2afd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a48df86740a22bdc7d3fadcee1ce001') in 0.049554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_5.prefab
+  artifactKey: Guid(e9f594317afd29940b3c93a13de17e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_5.prefab using Guid(e9f594317afd29940b3c93a13de17e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085ee5b58521026dc4084497463e4d57') in 0.069336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_7.prefab
+  artifactKey: Guid(1ccdaf0c2a9ce94418c423255c96b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_7.prefab using Guid(1ccdaf0c2a9ce94418c423255c96b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45d352428cc6275ba0858d241e56ac8') in 0.057805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_2.prefab
+  artifactKey: Guid(5d68a55fb8691f74dbda8f0e7d28977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_2.prefab using Guid(5d68a55fb8691f74dbda8f0e7d28977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99eba5055ce701c76eb8671f426efc3') in 0.070242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_9.prefab
+  artifactKey: Guid(0fdf72db57d893449a3a9a07173850fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_9.prefab using Guid(0fdf72db57d893449a3a9a07173850fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3df8dd59ca1acbd02085c2f1a69808') in 0.060786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_10.prefab
+  artifactKey: Guid(80e6775d068a64a41b6a6a6e8bb5dc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_10.prefab using Guid(80e6775d068a64a41b6a6a6e8bb5dc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f95b98f716e8c00f565ecc47716977') in 0.071339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000883 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_4.prefab
+  artifactKey: Guid(3b42812037617f94db4d73b138651e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_4.prefab using Guid(3b42812037617f94db4d73b138651e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7bbb0b09c566d2be2343c651a6acd3') in 0.067364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_8.prefab
+  artifactKey: Guid(57961d0dba2f64b4cbb2c39aa4532398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoverCraft/Prefabs/Bolt/Examples/Bolt_8.prefab using Guid(57961d0dba2f64b4cbb2c39aa4532398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded40ccf30c341994aab0fd2f516e3f2') in 0.073936 seconds 
