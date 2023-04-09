@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    //public bool isActive = true;
+    
 
     [SerializeField] private float speed = 30;
     [SerializeField] private float rotate_speed = 5;
@@ -17,8 +17,6 @@ public class CarController : MonoBehaviour
         position.y = Terrain.activeTerrain.SampleHeight(transform.position) + 15;
         transform.position = position;
         
-        //if (isActive)
-        //{
 
             if (Input.GetKey(KeyCode.W))
             {
@@ -36,7 +34,7 @@ public class CarController : MonoBehaviour
             {
                 transform.Rotate(0, rotate_speed * Time.deltaTime, 0);
             }
-        
-        //}
+       
+       
      }
 }
