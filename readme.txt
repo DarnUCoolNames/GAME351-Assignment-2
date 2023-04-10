@@ -50,15 +50,14 @@ For this Cross Country Hovercar Game, the team has implemented the main required
 
 2. Choice Features implemented
 
-	Laser-firing car:
-	
-		-Created the laser prefab with 2 scripts, one for the speed of the laser and one for destroying the spawned lasers after 
-		 a slight delay laser has a glow/bloom material on it
-		-made an empty object as the spawn point for the lasers
-		-created a script that is attached to the car parent called ShootLaser 
-		 (this will instantiate the laser object at the location of the empty object) 
-		-Anomalies: This project version was able to attach the laser to the 3rd car only. 
-		 Attempts made to add to other cars resulted in no lasers generated. 
+	Laser-firing car (Car3, The "2FastTurnCar"):
+
+	 -Created the laser prefab with 2 scripts, one for the speed of the laser and one for destroying the spawned lasers after 
+	  a slight delay laser has a glow/bloom material on it
+	 -made an empty object as the spawn point for the lasers
+	 -created a script that is attached to the car parent called ShootLaser 
+	  (this will instantiate the laser object at the location of the empty object) 
+
 
 
 To install the project, follow these steps:
