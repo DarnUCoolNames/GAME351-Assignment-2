@@ -3,12 +3,10 @@ School of Information, University of Arizona
 April 9, 2023
 
 Team:
+
 Teresa Tran
-
 Hannah Klecan
-
 Samantha Jackson
-
 Ian Roach
 
 1. Primary functionality
@@ -20,8 +18,11 @@ For this Cross Country Hovercar Game, the team has implemented the main required
 	-Implemented hovercraft driving using the “A” and “D” keys to turn the hovercraft left and right, respectively.
 	-Use the “W” and “S” keys to accelerate the hovercraft forward and backward, respectively.
 	-The hovercraft moves to follow the terrain naturally, without going through the terrain.
-	-Implemented a follow camera that stays locked in a third-person view behind the active car and moves in sync with the hovercraft as it travels across the terrain.
-	-The elevation of the camera relative to the hovercraft as it moves over the terrain uses the method Terrain.SampleHeight to control the camera's elevation.
+	-Implemented a follow camera that stays locked in a third-person view behind the active car 
+	 and moves in sync with the hovercraft as it travels across the terrain.
+	-Implements a basic movement script which detects when the user is pressing one of the chosen key bindings. 
+	-The elevation of the camera relative to the hovercraft as it moves over the terrain uses the
+	 method Terrain.SampleHeight to control the camera's elevation.
 
     Three Car Types:
 
@@ -41,6 +42,7 @@ For this Cross Country Hovercar Game, the team has implemented the main required
 	-Allows the player to control/drive one hovercraft at a time and cycle through them using the “C” key.
 	-The current active hovercraft always occupies the center of the screen, the camera changes each time the active car is toggled.
   	-Allows the player to cycle continuously through the cars, with the game looping back to the first car when the player toggles away from the last car.
+	-Uses a GameManager script to cycle through an array of camera objects which follow each car as specified. 
 	-Anomalies: When cycling to the 2nd and 3rd cars, the camera angle was problematic during development. Eventually the team was able to get the camera 
 	 to follow the active car properly, but the orientation of the first car was not able to be replicated. There was an inconsitency between the camera view 
 	 in Unity and the actual camera view in game mode. 
@@ -48,6 +50,13 @@ For this Cross Country Hovercar Game, the team has implemented the main required
 
 2. Choice Features implemented
 
+	Laser-firing car:
+	
+		-Created the laser prefab with 2 scripts, one for the speed of the laser and one for destroying the spawned lasers after 
+		 a slight delay laser has a glow/bloom material on it
+		-made an empty object as the spawn point for the lasers
+		-created a script that is attached to the car parent called ShootLaser 
+		 (this will instantiate the laser object at the location of the empty object) 
 
 
 To install the project, follow these steps:
